@@ -1,0 +1,36 @@
+﻿Displays picture of currently selected tile or 
+list of buildable tiles, with currently slected tile name highlighted
+Adds a scroll bar to the list if the list is too long to fit in the list area
+Three buttons on bottom; back one tile, toggle list view, forward one tile
+Should automatically remove/add buildable tiles to the list based on colony stocks
+Preserve currently selected tile when list changes
+If currently selected tile is no longer buildable, switch to previous list element
+Be able to handle situations where no tile is buildable
+Forward and back buttons grey out if only one building is available
+
+Title changes to name of tile, says "None Available" if nothing is buildable
+
+
+Displays list of currently allowed to construct (including those that you can build but 
+  don't have the materials for) tiles, with image, name, and some details on resources/
+  time required.
+Tiles that can't be built due to a lack of resources may still be selected, but appear 
+  somewhat grey
+Have a lower pane detailing the full requirements of the currently selected tile and how 
+  many of those resources are in stock
+Can toggle display of buildings you can build but don't yet have the materials for
+	List items numbered based on unbuildable buildings being present, selected list item
+	  may only be a visible item, will jump to first earlier available option if current 
+	  one becomes unavailable
+Hover over list item for popup showing detailed requirements?
+
+
+How to determine buildable tiles?
+	Discard all unresearched/otherwise locked buildings
+	Check colony inventory for currently available resources not earmarked for maintainence
+	Some buildings have odd requirements, such as dozed tiles needing a bulldozer and an open
+	  robot command slot
+
+Buildable Tile list:
+	Rebuild list after each turn and each construction placement
+		Hooks of some sort for those events

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildingDataCont xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TileDefinitions>
+    <BuildingDataLoader>
+      <ID>70</ID>
+      <Name>Landing Marker</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="2" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>71</ID>
+      <Name>Colonist Lander</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="103" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>72</ID>
+      <Name>Cargo Lander</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="204" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>73</ID>
+      <Name>Seed Lander</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="305" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>74</ID>
+      <Name>Command Center</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="406" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>75</ID>
+      <Name>Seed Power</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="507" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>76</ID>
+      <Name>Mine</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="608" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>77</ID>
+      <Name>Adv. Mine</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="709" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>78</ID>
+      <Name>DIRT</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="810" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>79</ID>
+      <Name>Adv. DIRT</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="911" Y="2" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>80</ID>
+      <Name>Unknown</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="2" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>81</ID>
+      <Name>Warehouse</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="103" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>82</ID>
+      <Name>Adv. Warehouse</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="204" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>83</ID>
+      <Name>Smelter</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="305" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>84</ID>
+      <Name>CHAP</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="406" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>85</ID>
+      <Name>Advanced CHAP</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="507" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>86</ID>
+      <Name>Tokamak</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="608" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>87</ID>
+      <Name>Unknown</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="709" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>88</ID>
+      <Name>Storage Tanks</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="810" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>89</ID>
+      <Name>Adv. Storage Tanks</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="911" Y="80" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>90</ID>
+      <Name>Basic SPEW</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="2" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>91</ID>
+      <Name>SPEW</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="103" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>92</ID>
+      <Name>Advanced SPEW</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="204" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>93</ID>
+      <Name>Basic Agridome</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="305" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>94</ID>
+      <Name>Agridome</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="406" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>95</ID>
+      <Name>Advanced Agridome</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="507" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>96</ID>
+      <Name>Hot Lab</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="608" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>97</ID>
+      <Name>Solar Reciever</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="709" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>98</ID>
+      <Name>Unknown</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="810" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>99</ID>
+      <Name>Ore Beacon</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="911" Y="158" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>100</ID>
+      <Name>Rail Station</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="2" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>101</ID>
+      <Name>Rail Left-Right</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="103" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>102</ID>
+      <Name>Rail Up-Down</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="204" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>103</ID>
+      <Name>Tube Intersection</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="305" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>104</ID>
+      <Name>Tube Left-Right</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="406" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>105</ID>
+      <Name>Tube Up-Down</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="507" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>106</ID>
+      <Name>Tube Elevator</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="608" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>107</ID>
+      <Name>Road Intersection</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="709" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>108</ID>
+      <Name>Road Left-Right</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="810" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>109</ID>
+      <Name>Road Up-Down</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="911" Y="236" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>110</ID>
+      <Name>Train</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="2" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>111</ID>
+      <Name>Rubble</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="103" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>112</ID>
+      <Name>Park</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="204" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>113</ID>
+      <Name>Basic Residential</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="305" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>114</ID>
+      <Name>Residential</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="406" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>115</ID>
+      <Name>Basic University</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="507" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>116</ID>
+      <Name>University</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="608" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>117</ID>
+      <Name>Adv. University</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="709" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>118</ID>
+      <Name>Recreation</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="810" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>119</ID>
+      <Name>Adv. Recreation</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="911" Y="314" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>120</ID>
+      <Name>Laboratory</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="2" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>121</ID>
+      <Name>Adv. Laboratory</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="103" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>122</ID>
+      <Name>Medical</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="204" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>123</ID>
+      <Name>Red Light District</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="305" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>124</ID>
+      <Name>UG Tokamak</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="406" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>125</ID>
+      <Name>Tube Intersection</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="507" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>126</ID>
+      <Name>Tube Left-Right</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="608" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>127</ID>
+      <Name>Tube Up-Down</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="709" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>128</ID>
+      <Name>Tube Elevator</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="810" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>129</ID>
+      <Name>Tube Airshaft</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="911" Y="392" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>130</ID>
+      <Name>Rubble</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="2" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>131</ID>
+      <Name>Rubble</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="103" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>132</ID>
+      <Name>Rubble</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="204" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>133</ID>
+      <Name>Rubble</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="305" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>134</ID>
+      <Name>Rubble</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="406" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>135</ID>
+      <Name>Construction</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="507" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>136</ID>
+      <Name>Construction</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="608" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>137</ID>
+      <Name>Digger</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="709" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>138</ID>
+      <Name>Dozer</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="810" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>139</ID>
+      <Name>Miner</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="911" Y="470" Width="98" Height="75" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>140</ID>
+      <Name>Basic Factory</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="549" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>141</ID>
+      <Name>Factory</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="662" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>142</ID>
+      <Name>Adv. Factory</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="775" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>143</ID>
+      <Name>Police</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="888" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>144</ID>
+      <Name>Adv. Police</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1001" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>145</ID>
+      <Name>Unknown</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1114" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>146</ID>
+      <Name>Adv. Residential</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1227" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>147</ID>
+      <Name>Administration</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1340" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>148</ID>
+      <Name>Adv. Administration</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1453" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>149</ID>
+      <Name>UG Factory</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="549" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>150</ID>
+      <Name>Adv. UG Factory</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="662" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>151</ID>
+      <Name>Police</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="775" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>152</ID>
+      <Name>Adv. Police</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="888" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>153</ID>
+      <Name>Robot Command</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1001" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>154</ID>
+      <Name>Adv. Robot Command</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1114" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>155</ID>
+      <Name>Basic Comm. Tower</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1227" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>156</ID>
+      <Name>Comm. Tower</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1340" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>157</ID>
+      <Name>Adv. Comm. Tower</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1453" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>158</ID>
+      <Name>Adv. Smelter</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="549" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>159</ID>
+      <Name>Unknown</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="662" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>160</ID>
+      <Name>Unknown</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="775" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>161</ID>
+      <Name>Adv. Hot Lab</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="888" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>162</ID>
+      <Name>Nanotech Facility</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1001" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>163</ID>
+      <Name>Mass Driver Rail</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1114" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>164</ID>
+      <Name>Mass Driver Head</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1227" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>165</ID>
+      <Name>Mineshaft</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1340" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>166</ID>
+      <Name>Adv. Mineshaft</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1453" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>167</ID>
+      <Name>Basic Commercial</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="549" Y="359" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>168</ID>
+      <Name>Basic Commercial Back</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="662" Y="359" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>169</ID>
+      <Name>Commercial</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="775" Y="359" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>170</ID>
+      <Name>Commercial Back</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="888" Y="359" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>171</ID>
+      <Name>Adv. Commercial</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1001" Y="359" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>172</ID>
+      <Name>Adv. Commercial Back</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1114" Y="359" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>173</ID>
+      <Name>Geothermal Small</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1227" Y="359" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>174</ID>
+      <Name>Geothermal Large Front</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1340" Y="359" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>175</ID>
+      <Name>Geothermal Large Back</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 1.png</Spritesheet>
+      <SampleArea X="1453" Y="359" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>176</ID>
+      <Name>Spaceport Pad</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 2.png</Spritesheet>
+      <SampleArea X="2" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>177</ID>
+      <Name>Terraforming Facility</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 2.png</Spritesheet>
+      <SampleArea X="115" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>178</ID>
+      <Name>Unknown</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 2.png</Spritesheet>
+      <SampleArea X="228" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>179</ID>
+      <Name>Adv. Terraforming Facility</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 2.png</Spritesheet>
+      <SampleArea X="341" Y="2" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>180</ID>
+      <Name>Unknown</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 2.png</Spritesheet>
+      <SampleArea X="2" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>181</ID>
+      <Name>Unknown</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 2.png</Spritesheet>
+      <SampleArea X="115" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>182</ID>
+      <Name>UG Spaceport Pad w Rocket</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 2.png</Spritesheet>
+      <SampleArea X="228" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>183</ID>
+      <Name>UG Spaceport Pad</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 2.png</Spritesheet>
+      <SampleArea X="341" Y="121" Width="110" Height="116" />
+    </BuildingDataLoader>
+    <BuildingDataLoader>
+      <ID>184</ID>
+      <Name>Construction</Name>
+      <Spritesheet>.//Old Content//Buildings//Buildings 2.png</Spritesheet>
+      <SampleArea X="2" Y="240" Width="110" Height="116" />
+    </BuildingDataLoader>
+  </TileDefinitions>
+</BuildingDataCont>

@@ -1,0 +1,116 @@
+﻿580 - Basic Research
+
+581 - (Astronomy)
+582 - Astrophysics, Orbital Mechanics
+583 - Basic Astronomy
+584 - Planetary Astronomy
+585 - Stellar Astronomy
+
+586 - (Biology)
+587 - Medicine, Pharmacology, Alien Pharmacology
+588 - Genetics
+589 - Genetic Engineering
+590 - Agriculture 1
+591 - Exobiology
+593 - Physiology, Anatomy, Comparative Physiology
+594 - Embryology
+595 - Immunology
+596 - Entomology
+597 - Ecology, Alien, Terrestrial, Marine, Atmospheric
+
+602 - (Chemistry)
+603 - Biochemistry
+604 - Physical Chemistry, Metallurgy, Materials Processing
+605 - Quantum Chemistry
+
+606 - (Planetary Sciences)
+608 - Geography
+609 - Geology,Terrestrial Geology, Mineral Resources, Engineering Geology, Terrestrial Mining, Extraterrestrial Mining, Minerology, Vulcanology, Tectonics
+610 - Mathematics
+
+611 - (Computer Science)
+612 - Artificial Intelligence, AI Managers, AI Personality, Space Probe Int
+613 - Robotics 1, Robotics 2, Repairbots, Humanoid Workers, Airbots
+614 - Advanced Processors
+615 - Systems Analysis, Efficiency 1 + 2
+
+616 - (Physics)
+617 - Aerospace, Wind Tunnels
+618 - Spacecraft Testing and Design
+619 - Orbital Space Stations
+620 - Satellites and Probes
+621 - Meteorsat
+622 - Comsat/Navsat
+623 - Solar Satellite
+624 - Geological Penetrator
+625 - Weathersat
+626 - Orbital Observer
+627 - Flyby Probe
+628 - ULBI Probe
+629 - Communications, Harsh Environment Signal Processing, SETI
+630 - Electrical Engineering
+631 - Optics
+632 - Power Generation
+633 - Propulsion Systems, Standard Propulsion
+634 - Theoretical Physics, Nuclear Physics, Plasma Physics, Antimatter, Superconductivity
+635 - Quantum Physics
+
+      (No header for Social Sciences?)
+636 - Political Science, Economics
+637 - Psychology, Trade Negotiation
+638 - Sociology, Cultural Change, Industrial Sociology, Social Stratification, Crowd Psycology
+639 - Urban Studies, City Planning
+640 - Police Science
+
+642 - (Humanities)
+643 - Drama
+644 - Fine Arts
+645 - History
+646 - Music
+647 - Philosophy
+
+648 - Meteorology
+649 - Nanotechnology
+
+
+BASIC RESEARCH.........................Improved Laboratory
+ASTROPHYSICS...........................Meteor Alert, Solar Flare Alert
+BASIC ASTRONOMY........................Space Program
+STELLAR ASTRONOMY......................Celestial Navigation
+MEDECINE...............................Suspended Animation
+ALIEN PHARMACOLOGY.....................Alien Virus Cure
+EMBRYOLOGY.............................Infant Survival Improvement
+QUANTUM CHEMISTRY......................Improved SPEW Facility
+METEOROLOGY............................Weather Prediction
+GEOGRAPHY..............................Mapping With Coordinates
+TECTONICS & EARTHQUAKES................Earthquake Prediction
+MINERALOGY.............................Improved Smelter Production
+VULCANOLOGY............................Volcanic Prediction
+TERRESTRIAL MINING.....................Find Mineral Resources Faster
+EXTRATERRESTRIAL MINING................Improved Mine Production(?)
+ENGINEERING GEOLOGY....................Road Building Improvement
+ARTIFICIAL INTELLIGENCE................Hot Lab
+AI MANAGERS............................Multiple AI
+AI PERSONALITY PROBLEMS................No AI Problems
+SPACE PROBE INTELLIGENCE...............Intelligent Space Probes
+AIRBOTS................................Airborne Robots
+REPAIRBOTS.............................Repair Robots
+HUMANOID REPLACEMENT WORKERS...........Humanoid Workers, Improved Morale
+EFFICIENCY STUDIES I...................Factory Production Increase, Administration Building
+EFFICIENCY STUDIES II..................Tech Level Advance (Residential, Admin, Lab, Recreation, Commercial, Police, University, Medical, SPEW, Hot Lab, Comm., CHAP, DIRT, Robot Comm, Warehouse, Storage Tanks, Tokamak all recieve visual upgrade)
+SPACECRAFT TESTING.....................Spacedock, Space Facility, Space Lab
+METEORSAT..............................Meteor Defense System
+COMSAT/NAVSAT..........................Communication/Navigation Satellite
+SOLAR POWER SATELLITE..................Solar Power Satellite
+WEATHERSAT.............................Weather Satellite
+ORBITAL OBSERVER.......................Orbital Observer
+HARSH ENVIRONMENT SIGNALS PROCESSING...Improved Communications
+ALTERNATIVE ADVANCED SYSTEMS...........Geothermal Power
+
+Advanced Learning Techniques - Upgraded Universities 1
+Political Science - Upgraded Residences 1?
+Materials Processing - Upgraded UG Factory
+No apparent benefit to upgraded residence (maybe morale?)
+
+Robotics 1 and 2 required for Robotics 1 subsequents
+Nanotech 1 and 2 required for Nanotech 1 subsequents

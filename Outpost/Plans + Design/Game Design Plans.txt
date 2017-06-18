@@ -1,0 +1,32 @@
+﻿Ensure a seperation between the tile grid and the logic of the buildings
+	Any area of effect building feature should use a radius or box based area
+
+Consider making power requirements dependent on local weather conditions
+
+Add throughput restraints to various sorts of connector
+-Terrain is the worst, unable to support all traffic and worsens with roughness level
+-Dozed terrain much better for raw resource transport
+-Roads better still, and able to handle all traffic
+-Tubes good at carrying people, but fine for processed goods, weak for ores
+-Rail great at everything
+-The average building is like a tube, but somewhat worse
+-Unconnected buildings act like dozed terrain
+
+Design layout of a colony:
+	Colony
+		BuildingGroups
+		  -Connected by BuildingConnections
+			Buildings
+
+A colony is a set of interconnected BuildingGroups.  
+Colony has:
+	Shared construction resources out to a certain range
+
+
+Construction:
+	Starting a new construction sets down a construction building
+	Building contains name of end result building and may cover multiple tiles
+	Builds up resources; when needs are met decreases turns until complete timer by 1
+	If underserved it will give some visible warning
+	Player will have some means of prioritizing some constructions over others and
+	  prioritizing a construction over colony maintainance needs

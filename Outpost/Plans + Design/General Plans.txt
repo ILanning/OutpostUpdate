@@ -1,0 +1,81 @@
+﻿Devise a test framework for the window manager, so that a game isn't needed to get the thing up and running
+
+Next Functionality to implement:
+	Title bar on window
+	Close button display
+	Moving window
+	Resizing window
+
++Test 2: Create a message box (one button, one string, close button in window)
++Test 3: second button in message box that affects game world (OK/Cancel, if ok->change tile color)
++Spawn multiple windows, test focus handling
++Test clickthrough
+Further tests:
+Bind data to a display, have the display update when the data changes
+Have an input element return data using eventargs
+	
+Elements:
+Line (div)
+Flat Color
+Texture
+RGB
+String (FontPositionColor)
+Button
+
+Containers:
+Space Fill List (Horizontal/Vertical)
+Scrollable List (Horizontal/Vertical)
+Grid
+Scrollable Grid
+
+Make sure that a turn event is exposed somewhere
+
+New element properties:
+Justification (which side, if any, does it stick to?)
+Resize Behavior (Does it fill the available space, keep a ratio, remain constant,etc.)
+Minimum Size (Elements report minimums upwards, higher ordered elements then create their own minimums) - Important: Higher elements may ignore minimums
+Builder - can accept or create a structure defining its current shape and properties
+
+New idea - Use contained window environment as testing ground for limited components
+	Tests - build CDraw, CClick, and CElement, combine into window button
+
+	Components - 
+	  CClick
+	  CDraw
+	  CElement
+	  CCollide
+	  CModify
+	  CState
+
+    Values - 
+	  Texture2D Image - used by CDraw
+	  Frame[] Samples - used by CDraw
+	  Rectangle DrawTarget - used by CDraw, CElement
+	  Modifier2D[] Modifiers - used by CModify
+	  CollisionShape Collision - used by CClick, CCollide
+
+	Design - 
+	  Components do work in different places
+	    HandleInput - CClick, CCollide
+		Update - CModify
+		Draw - CDraw
+		On Call - CElement
+	  CState acts to allow components to work with eachother, and allows for scripting of highly specific functions for certain classes
+
+1:48:16
+
+Clare-DigiPen Art Program
+
+Completed:
+
+	Click and drag functionality
+Invisible titlebar button registers clicks, sends info to window manager for handling?
+When may a window be moved?
+-When focussed
+-When disabled
+Clicking a window should focus it if no other windows are in the way
+-Unfocussed dragging not illegal, but impossible
+Window should only respond to input if in focus according to the Window Manager
+Dragging state?
+If window is being moved, do not allow for input on anything
+Lock mouse click and drag input

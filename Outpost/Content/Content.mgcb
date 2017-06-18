@@ -1,0 +1,730 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Fonts/Consolas.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/Consolas.spritefont
+
+#begin Fonts/DefaultFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/DefaultFont.spritefont
+
+#begin Fonts/ErrorFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/ErrorFont.spritefont
+
+#begin Fonts/MS Sans Serif.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/MS Sans Serif.spritefont
+
+#begin XML/Buildings.xml
+/copy:XML/Buildings.xml
+
+#begin XML/Terrain.xml
+/copy:XML/Terrain.xml
+
+#begin XML/Tiles.xml
+/copy:XML/Tiles.xml
+
+#begin Old Content/Buildings/Buildings 1.png
+/copy:Old Content/Buildings/Buildings 1.png
+
+#begin Old Content/Buildings/Buildings 2.png
+/copy:Old Content/Buildings/Buildings 2.png
+
+#begin Old Content/Maps/500.png
+/copy:Old Content/Maps/500.png
+
+#begin Old Content/Maps/500A.png
+/copy:Old Content/Maps/500A.png
+
+#begin Old Content/Maps/501.png
+/copy:Old Content/Maps/501.png
+
+#begin Old Content/Maps/501A.png
+/copy:Old Content/Maps/501A.png
+
+#begin Old Content/Maps/502.png
+/copy:Old Content/Maps/502.png
+
+#begin Old Content/Maps/502A.png
+/copy:Old Content/Maps/502A.png
+
+#begin Old Content/Maps/503.png
+/copy:Old Content/Maps/503.png
+
+#begin Old Content/Maps/503A.png
+/copy:Old Content/Maps/503A.png
+
+#begin Old Content/Maps/504.png
+/copy:Old Content/Maps/504.png
+
+#begin Old Content/Maps/504A.png
+/copy:Old Content/Maps/504A.png
+
+#begin Old Content/Maps/505.png
+/copy:Old Content/Maps/505.png
+
+#begin Old Content/Maps/505A.png
+/copy:Old Content/Maps/505A.png
+
+#begin Old Content/Maps/506.png
+/copy:Old Content/Maps/506.png
+
+#begin Old Content/Maps/506A.png
+/copy:Old Content/Maps/506A.png
+
+#begin Old Content/Maps/507.png
+/copy:Old Content/Maps/507.png
+
+#begin Old Content/Maps/507A.png
+/copy:Old Content/Maps/507A.png
+
+#begin Old Content/Maps/508.png
+/copy:Old Content/Maps/508.png
+
+#begin Old Content/Maps/508A.png
+/copy:Old Content/Maps/508A.png
+
+#begin Old Content/Maps/509.png
+/copy:Old Content/Maps/509.png
+
+#begin Old Content/Maps/509A.png
+/copy:Old Content/Maps/509A.png
+
+#begin Old Content/Maps/510.png
+/copy:Old Content/Maps/510.png
+
+#begin Old Content/Maps/510A.png
+/copy:Old Content/Maps/510A.png
+
+#begin Old Content/Maps/511.png
+/copy:Old Content/Maps/511.png
+
+#begin Old Content/Maps/511A.png
+/copy:Old Content/Maps/511A.png
+
+#begin Old Content/Maps/512.png
+/copy:Old Content/Maps/512.png
+
+#begin Old Content/Maps/512A.png
+/copy:Old Content/Maps/512A.png
+
+#begin Old Content/Maps/513.png
+/copy:Old Content/Maps/513.png
+
+#begin Old Content/Maps/513A.png
+/copy:Old Content/Maps/513A.png
+
+#begin Old Content/Maps/514.png
+/copy:Old Content/Maps/514.png
+
+#begin Old Content/Maps/514A.png
+/copy:Old Content/Maps/514A.png
+
+#begin Old Content/Maps/515.png
+/copy:Old Content/Maps/515.png
+
+#begin Old Content/Maps/515A.png
+/copy:Old Content/Maps/515A.png
+
+#begin Old Content/Maps/516.png
+/copy:Old Content/Maps/516.png
+
+#begin Old Content/Maps/516A.png
+/copy:Old Content/Maps/516A.png
+
+#begin Old Content/Maps/517.png
+/copy:Old Content/Maps/517.png
+
+#begin Old Content/Maps/517A.png
+/copy:Old Content/Maps/517A.png
+
+#begin Old Content/Maps/518.png
+/copy:Old Content/Maps/518.png
+
+#begin Old Content/Maps/518A.png
+/copy:Old Content/Maps/518A.png
+
+#begin Old Content/Maps/519.png
+/copy:Old Content/Maps/519.png
+
+#begin Old Content/Maps/519A.png
+/copy:Old Content/Maps/519A.png
+
+#begin Old Content/Maps/520.png
+/copy:Old Content/Maps/520.png
+
+#begin Old Content/Maps/520A.png
+/copy:Old Content/Maps/520A.png
+
+#begin Old Content/Maps/521.png
+/copy:Old Content/Maps/521.png
+
+#begin Old Content/Maps/521A.png
+/copy:Old Content/Maps/521A.png
+
+#begin Old Content/Maps/522.png
+/copy:Old Content/Maps/522.png
+
+#begin Old Content/Maps/522A.png
+/copy:Old Content/Maps/522A.png
+
+#begin Old Content/Maps/523.png
+/copy:Old Content/Maps/523.png
+
+#begin Old Content/Maps/523A.png
+/copy:Old Content/Maps/523A.png
+
+#begin Old Content/Maps/524.png
+/copy:Old Content/Maps/524.png
+
+#begin Old Content/Maps/524A.png
+/copy:Old Content/Maps/524A.png
+
+#begin Old Content/Maps/525.png
+/copy:Old Content/Maps/525.png
+
+#begin Old Content/Maps/525A.png
+/copy:Old Content/Maps/525A.png
+
+#begin Old Content/Maps/526.png
+/copy:Old Content/Maps/526.png
+
+#begin Old Content/Maps/526A.png
+/copy:Old Content/Maps/526A.png
+
+#begin Old Content/Maps/527.png
+/copy:Old Content/Maps/527.png
+
+#begin Old Content/Maps/527A.png
+/copy:Old Content/Maps/527A.png
+
+#begin Old Content/Maps/528.png
+/copy:Old Content/Maps/528.png
+
+#begin Old Content/Maps/528A.png
+/copy:Old Content/Maps/528A.png
+
+#begin Old Content/Maps/531.png
+/copy:Old Content/Maps/531.png
+
+#begin Old Content/Maps/531A.png
+/copy:Old Content/Maps/531A.png
+
+#begin Old Content/Maps/532.png
+/copy:Old Content/Maps/532.png
+
+#begin Old Content/Maps/532A.png
+/copy:Old Content/Maps/532A.png
+
+#begin Old Content/Maps/541.png
+/copy:Old Content/Maps/541.png
+
+#begin Old Content/Maps/541A.png
+/copy:Old Content/Maps/541A.png
+
+#begin Old Content/Maps/542.png
+/copy:Old Content/Maps/542.png
+
+#begin Old Content/Maps/542A.png
+/copy:Old Content/Maps/542A.png
+
+#begin Old Content/Maps/543.png
+/copy:Old Content/Maps/543.png
+
+#begin Old Content/Maps/543A.png
+/copy:Old Content/Maps/543A.png
+
+#begin Old Content/Maps/544.png
+/copy:Old Content/Maps/544.png
+
+#begin Old Content/Maps/544A.png
+/copy:Old Content/Maps/544A.png
+
+#begin Old Content/Maps/545.png
+/copy:Old Content/Maps/545.png
+
+#begin Old Content/Maps/545A.png
+/copy:Old Content/Maps/545A.png
+
+#begin Old Content/Maps/546.png
+/copy:Old Content/Maps/546.png
+
+#begin Old Content/Maps/546A.png
+/copy:Old Content/Maps/546A.png
+
+#begin Old Content/Maps/547.png
+/copy:Old Content/Maps/547.png
+
+#begin Old Content/Maps/547A.png
+/copy:Old Content/Maps/547A.png
+
+#begin Old Content/Maps/548.png
+/copy:Old Content/Maps/548.png
+
+#begin Old Content/Maps/548A.png
+/copy:Old Content/Maps/548A.png
+
+#begin Old Content/Maps/549.png
+/copy:Old Content/Maps/549.png
+
+#begin Old Content/Maps/549A.png
+/copy:Old Content/Maps/549A.png
+
+#begin Old Content/Maps/550.png
+/copy:Old Content/Maps/550.png
+
+#begin Old Content/Maps/550A.png
+/copy:Old Content/Maps/550A.png
+
+#begin Old Content/Maps/551.png
+/copy:Old Content/Maps/551.png
+
+#begin Old Content/Maps/551A.png
+/copy:Old Content/Maps/551A.png
+
+#begin Old Content/Maps/552.png
+/copy:Old Content/Maps/552.png
+
+#begin Old Content/Maps/552A.png
+/copy:Old Content/Maps/552A.png
+
+#begin Old Content/Maps/553.png
+/copy:Old Content/Maps/553.png
+
+#begin Old Content/Maps/553A.png
+/copy:Old Content/Maps/553A.png
+
+#begin Old Content/Maps/554.png
+/copy:Old Content/Maps/554.png
+
+#begin Old Content/Maps/554A.png
+/copy:Old Content/Maps/554A.png
+
+#begin Old Content/Maps/555.png
+/copy:Old Content/Maps/555.png
+
+#begin Old Content/Maps/555A.png
+/copy:Old Content/Maps/555A.png
+
+#begin Old Content/Maps/556.png
+/copy:Old Content/Maps/556.png
+
+#begin Old Content/Maps/556A.png
+/copy:Old Content/Maps/556A.png
+
+#begin Old Content/Maps/557.png
+/copy:Old Content/Maps/557.png
+
+#begin Old Content/Maps/557A.png
+/copy:Old Content/Maps/557A.png
+
+#begin Old Content/Maps/558.png
+/copy:Old Content/Maps/558.png
+
+#begin Old Content/Maps/558A.png
+/copy:Old Content/Maps/558A.png
+
+#begin Old Content/Maps/559.png
+/copy:Old Content/Maps/559.png
+
+#begin Old Content/Maps/559A.png
+/copy:Old Content/Maps/559A.png
+
+#begin Old Content/Maps/560.png
+/copy:Old Content/Maps/560.png
+
+#begin Old Content/Maps/560A.png
+/copy:Old Content/Maps/560A.png
+
+#begin Old Content/Maps/561.png
+/copy:Old Content/Maps/561.png
+
+#begin Old Content/Maps/561A.png
+/copy:Old Content/Maps/561A.png
+
+#begin Old Content/Maps/562.png
+/copy:Old Content/Maps/562.png
+
+#begin Old Content/Maps/562A.png
+/copy:Old Content/Maps/562A.png
+
+#begin Old Content/Maps/563.png
+/copy:Old Content/Maps/563.png
+
+#begin Old Content/Maps/563A.png
+/copy:Old Content/Maps/563A.png
+
+#begin Old Content/Maps/564.png
+/copy:Old Content/Maps/564.png
+
+#begin Old Content/Maps/564A.png
+/copy:Old Content/Maps/564A.png
+
+#begin Old Content/Maps/565.png
+/copy:Old Content/Maps/565.png
+
+#begin Old Content/Maps/565A.png
+/copy:Old Content/Maps/565A.png
+
+#begin Old Content/Maps/566.png
+/copy:Old Content/Maps/566.png
+
+#begin Old Content/Maps/566A.png
+/copy:Old Content/Maps/566A.png
+
+#begin Old Content/Maps/567.png
+/copy:Old Content/Maps/567.png
+
+#begin Old Content/Maps/567A.png
+/copy:Old Content/Maps/567A.png
+
+#begin Old Content/Maps/568.png
+/copy:Old Content/Maps/568.png
+
+#begin Old Content/Maps/568A.png
+/copy:Old Content/Maps/568A.png
+
+#begin Old Content/Maps/569.png
+/copy:Old Content/Maps/569.png
+
+#begin Old Content/Maps/569A.png
+/copy:Old Content/Maps/569A.png
+
+#begin Old Content/Maps/570.png
+/copy:Old Content/Maps/570.png
+
+#begin Old Content/Maps/570A.png
+/copy:Old Content/Maps/570A.png
+
+#begin Old Content/Maps/571.png
+/copy:Old Content/Maps/571.png
+
+#begin Old Content/Maps/571A.png
+/copy:Old Content/Maps/571A.png
+
+#begin Old Content/Maps/572.png
+/copy:Old Content/Maps/572.png
+
+#begin Old Content/Maps/572A.png
+/copy:Old Content/Maps/572A.png
+
+#begin Old Content/Maps/573.png
+/copy:Old Content/Maps/573.png
+
+#begin Old Content/Maps/573A.png
+/copy:Old Content/Maps/573A.png
+
+#begin Old Content/Maps/574.png
+/copy:Old Content/Maps/574.png
+
+#begin Old Content/Maps/574A.png
+/copy:Old Content/Maps/574A.png
+
+#begin Old Content/Maps/575.png
+/copy:Old Content/Maps/575.png
+
+#begin Old Content/Maps/575A.png
+/copy:Old Content/Maps/575A.png
+
+#begin Old Content/Maps/576.png
+/copy:Old Content/Maps/576.png
+
+#begin Old Content/Maps/576A.png
+/copy:Old Content/Maps/576A.png
+
+#begin Old Content/Maps/577.png
+/copy:Old Content/Maps/577.png
+
+#begin Old Content/Maps/577A.png
+/copy:Old Content/Maps/577A.png
+
+#begin Old Content/Maps/578.png
+/copy:Old Content/Maps/578.png
+
+#begin Old Content/Maps/578A.png
+/copy:Old Content/Maps/578A.png
+
+#begin Old Content/Maps/579.png
+/copy:Old Content/Maps/579.png
+
+#begin Old Content/Maps/579A.png
+/copy:Old Content/Maps/579A.png
+
+#begin Old Content/Planets/Planet 01.png
+/copy:Old Content/Planets/Planet 01.png
+
+#begin Old Content/Planets/Planet 02.png
+/copy:Old Content/Planets/Planet 02.png
+
+#begin Old Content/Planets/Planet 03.png
+/copy:Old Content/Planets/Planet 03.png
+
+#begin Old Content/Planets/Planet 04.png
+/copy:Old Content/Planets/Planet 04.png
+
+#begin Old Content/Planets/Planet 05.png
+/copy:Old Content/Planets/Planet 05.png
+
+#begin Old Content/Planets/Planet 06.png
+/copy:Old Content/Planets/Planet 06.png
+
+#begin Old Content/Planets/Planet 07.png
+/copy:Old Content/Planets/Planet 07.png
+
+#begin Old Content/Planets/Planet 08.png
+/copy:Old Content/Planets/Planet 08.png
+
+#begin Old Content/Planets/Planet 09.png
+/copy:Old Content/Planets/Planet 09.png
+
+#begin Old Content/Planets/Planet 10.png
+/copy:Old Content/Planets/Planet 10.png
+
+#begin Old Content/Research/580.BMP
+/copy:Old Content/Research/580.BMP
+
+#begin Old Content/Research/581.BMP
+/copy:Old Content/Research/581.BMP
+
+#begin Old Content/Research/582.BMP
+/copy:Old Content/Research/582.BMP
+
+#begin Old Content/Research/583.BMP
+/copy:Old Content/Research/583.BMP
+
+#begin Old Content/Research/584.BMP
+/copy:Old Content/Research/584.BMP
+
+#begin Old Content/Research/585.BMP
+/copy:Old Content/Research/585.BMP
+
+#begin Old Content/Research/586.BMP
+/copy:Old Content/Research/586.BMP
+
+#begin Old Content/Research/587.BMP
+/copy:Old Content/Research/587.BMP
+
+#begin Old Content/Research/588.BMP
+/copy:Old Content/Research/588.BMP
+
+#begin Old Content/Research/589.BMP
+/copy:Old Content/Research/589.BMP
+
+#begin Old Content/Research/590.BMP
+/copy:Old Content/Research/590.BMP
+
+#begin Old Content/Research/591.BMP
+/copy:Old Content/Research/591.BMP
+
+#begin Old Content/Research/592.BMP
+/copy:Old Content/Research/592.BMP
+
+#begin Old Content/Research/593.BMP
+/copy:Old Content/Research/593.BMP
+
+#begin Old Content/Research/594.BMP
+/copy:Old Content/Research/594.BMP
+
+#begin Old Content/Research/595.BMP
+/copy:Old Content/Research/595.BMP
+
+#begin Old Content/Research/596.BMP
+/copy:Old Content/Research/596.BMP
+
+#begin Old Content/Research/597.BMP
+/copy:Old Content/Research/597.BMP
+
+#begin Old Content/Research/602.BMP
+/copy:Old Content/Research/602.BMP
+
+#begin Old Content/Research/603.BMP
+/copy:Old Content/Research/603.BMP
+
+#begin Old Content/Research/604.BMP
+/copy:Old Content/Research/604.BMP
+
+#begin Old Content/Research/605.BMP
+/copy:Old Content/Research/605.BMP
+
+#begin Old Content/Research/606.BMP
+/copy:Old Content/Research/606.BMP
+
+#begin Old Content/Research/608.BMP
+/copy:Old Content/Research/608.BMP
+
+#begin Old Content/Research/609.BMP
+/copy:Old Content/Research/609.BMP
+
+#begin Old Content/Research/610.BMP
+/copy:Old Content/Research/610.BMP
+
+#begin Old Content/Research/611.BMP
+/copy:Old Content/Research/611.BMP
+
+#begin Old Content/Research/612.BMP
+/copy:Old Content/Research/612.BMP
+
+#begin Old Content/Research/613.BMP
+/copy:Old Content/Research/613.BMP
+
+#begin Old Content/Research/614.BMP
+/copy:Old Content/Research/614.BMP
+
+#begin Old Content/Research/615.BMP
+/copy:Old Content/Research/615.BMP
+
+#begin Old Content/Research/616.BMP
+/copy:Old Content/Research/616.BMP
+
+#begin Old Content/Research/617.BMP
+/copy:Old Content/Research/617.BMP
+
+#begin Old Content/Research/618.BMP
+/copy:Old Content/Research/618.BMP
+
+#begin Old Content/Research/619.BMP
+/copy:Old Content/Research/619.BMP
+
+#begin Old Content/Research/620.BMP
+/copy:Old Content/Research/620.BMP
+
+#begin Old Content/Research/621.BMP
+/copy:Old Content/Research/621.BMP
+
+#begin Old Content/Research/622.BMP
+/copy:Old Content/Research/622.BMP
+
+#begin Old Content/Research/623.BMP
+/copy:Old Content/Research/623.BMP
+
+#begin Old Content/Research/624.BMP
+/copy:Old Content/Research/624.BMP
+
+#begin Old Content/Research/625.BMP
+/copy:Old Content/Research/625.BMP
+
+#begin Old Content/Research/626.BMP
+/copy:Old Content/Research/626.BMP
+
+#begin Old Content/Research/627.BMP
+/copy:Old Content/Research/627.BMP
+
+#begin Old Content/Research/628.BMP
+/copy:Old Content/Research/628.BMP
+
+#begin Old Content/Research/629.BMP
+/copy:Old Content/Research/629.BMP
+
+#begin Old Content/Research/630.BMP
+/copy:Old Content/Research/630.BMP
+
+#begin Old Content/Research/631.BMP
+/copy:Old Content/Research/631.BMP
+
+#begin Old Content/Research/632.BMP
+/copy:Old Content/Research/632.BMP
+
+#begin Old Content/Research/633.BMP
+/copy:Old Content/Research/633.BMP
+
+#begin Old Content/Research/634.BMP
+/copy:Old Content/Research/634.BMP
+
+#begin Old Content/Research/635.BMP
+/copy:Old Content/Research/635.BMP
+
+#begin Old Content/Research/636.BMP
+/copy:Old Content/Research/636.BMP
+
+#begin Old Content/Research/637.BMP
+/copy:Old Content/Research/637.BMP
+
+#begin Old Content/Research/638.BMP
+/copy:Old Content/Research/638.BMP
+
+#begin Old Content/Research/639.BMP
+/copy:Old Content/Research/639.BMP
+
+#begin Old Content/Research/640.BMP
+/copy:Old Content/Research/640.BMP
+
+#begin Old Content/Research/642.BMP
+/copy:Old Content/Research/642.BMP
+
+#begin Old Content/Research/643.BMP
+/copy:Old Content/Research/643.BMP
+
+#begin Old Content/Research/644.BMP
+/copy:Old Content/Research/644.BMP
+
+#begin Old Content/Research/645.BMP
+/copy:Old Content/Research/645.BMP
+
+#begin Old Content/Research/646.BMP
+/copy:Old Content/Research/646.BMP
+
+#begin Old Content/Research/647.BMP
+/copy:Old Content/Research/647.BMP
+
+#begin Old Content/Research/648.BMP
+/copy:Old Content/Research/648.BMP
+
+#begin Old Content/Research/649.BMP
+/copy:Old Content/Research/649.BMP
+
+#begin Old Content/Terrain/Terrain.png
+/copy:Old Content/Terrain/Terrain.png
+
+#begin Old Content/UI/Buttons.png
+/copy:Old Content/UI/Buttons.png
+
+#begin Old Content/UI/Cursor 2.png
+/copy:Old Content/UI/Cursor 2.png
+
+#begin Old Content/UI/Cursor 3.png
+/copy:Old Content/UI/Cursor 3.png
+
+#begin Old Content/UI/Cursor.png
+/copy:Old Content/UI/Cursor.png
+
+#begin Old Content/UI/Icon2.png
+/copy:Old Content/UI/Icon2.png
+
+#begin Old Content/Title Screen.png
+/copy:Old Content/Title Screen.png
+
+#begin UI/Exit Button.png
+/copy:UI/Exit Button.png
+
+#begin UI/UI Elements 2.png
+/copy:UI/UI Elements 2.png
+
+#begin UI/UI Elements.png
+/copy:UI/UI Elements.png
+
